@@ -6,17 +6,58 @@
   padding: 0;
 }
 
+body {
+  background-image: url(images/Landscape-Rio\ Grand-Big-Bend-National-Park.jpg);
+  background-size: cover;
+}
+
+main section {
+  background-color: #819c99;
+  opacity: 90%;
+  border-radius: 0.5rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+p {
+  color: white;
+}
+
+html {
+  font-size: 16px;
+  margin-top: 3em;
+}
+
+h1 {
+  background-color: none;
+}
+
+h2,
+h3 {
+  color: white;
+  background-color: #819c99;
+  padding: 1em;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
 header {
   padding: 2em 0;
+  margin: auto;
 }
 
 header h1 {
   font-size: 3em;
+  color: #819c99;
 }
 
 header span {
-  font-size: 1.5;
-  color: #999;
+  font-size: 1.5em;
+  color: white;
 }
 
 nav {
@@ -40,4 +81,71 @@ nav a {
 
 nav a:hover {
   background: #666;
+}
+
+section {
+  margin: 1em 0;
+  padding-top: 3em;
+  min-height: 20em;
+}
+
+section > p {
+  margin: 1em 0;
+  padding: 1em;
+  text-align: justify;
+}
+
+section ul {
+  padding-left: 1.5em;
+}
+
+#aboutMe img {
+  max-width: 30%;
+  height: auto;
+  opacity: 100%;
+}
+
+#aboutMe img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+#portfolio > div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  grid-column-gap: 1em;
+}
+
+#portfolio article {
+  background: #ccc;
+  padding: 1em;
+}
+
+footer {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  background: white;
+  color: #819c99;
+  padding: 1em 0;
+  text-align: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #819c99;
+}
+
+li {
+  color: white;
+}
+
+article {
+  padding: 1em;
+  margin: auto;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
 }
